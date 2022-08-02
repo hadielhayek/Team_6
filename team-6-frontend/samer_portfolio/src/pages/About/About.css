@@ -1,0 +1,26 @@
+
+.samerImg img{
+    border-radius: 50% 50% 50% 50%;
+}
+
+.divbtn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.aboueInput{
+    height: 130px;
+}
+.samerImg{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+  @media screen and (max-width:664px){
+    .editImg{
+        opacity: 0.5;
+    }
+    .samerImg{
+      text-align: center;
+    }
+   
+  }

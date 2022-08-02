@@ -1,0 +1,104 @@
+.feedback_table{
+    width:90%;
+     text-align: center;
+     padding: 30px;
+     background-color: white;
+     margin: auto;
+    margin-top: 50px;
+ }
+ .feedback_table table{
+     width: 100%;
+ }
+ .feedback_table table , .feedback_table th , .feedback_table td{
+     text-align: center;
+     border: 1px #2C98F0 solid;
+     border-collapse: collapse;
+   }
+ .feedback_table th, .feedback_table td{
+     width: 25%;
+     margin: auto;
+ }
+ th{
+     background-color: #2C98F0;
+ }
+ .feedback_table tr{
+     height: 50px;
+ }
+ .edit , .delete{
+     font-size: 10px;
+     width: 75px;
+     height: 15px;
+     margin-top: 37px;
+     padding-top: 10px;
+    
+ }
+ .edit{
+ background-color: #27AE60;
+ 
+ 
+ }
+ .delete{
+     background-color: #EC5453;
+ margin-left: 10px;
+ 
+ 
+ }
+ .form_edit_container{
+     width:90%;
+     padding: 10px;
+     background-color: white;
+     margin: auto;
+     padding-top: 30px;
+ }
+ .form_edit table{
+     width: 90%;
+ }
+ .form_edit{
+     display: flex;
+ justify-content: center;
+ }
+ .form_edit table, .form_edit th , .form_edit td{
+     border: none;
+ }
+ .td_label{
+ width: 15%;
+ }
+ .btn{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .form_edit table {
+     border-collapse: separate;
+     border-spacing: 30px;
+ }
+ .divbtn{
+     text-align: end;
+     width: 100%;
+ }
+ input{
+     height: 50px;
+     width: 98.5%;
+ }
+ @media screen and (max-width:667px){
+     input{
+         height:25px;
+     }
+ .btn{
+     display: block;
+ }
+ .delete{
+     margin-left: 0;
+ }
+ }
+ 
+ @media screen and (max-width:664px) {
+    
+     .feedback_table th, .feedback_table td{
+         width: 20%;
+         margin: auto;
+         font-size: smaller;
+         height: 50px;
+     }
+ 
+ }

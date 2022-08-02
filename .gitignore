@@ -1,0 +1,29 @@
+#  Fronend---------------------------
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/team-6-frontend/samer_portfolio/node_modules
+/team-6-frontend/samer_portfolio/.pnp
+/team-6-frontend/samer_portfolio/.pnp.js
+
+# testing
+/team-6-frontend/samer_portfolio/coverage
+
+# production
+/team-6-frontend/samer_portfolio/build
+
+# misc
+/team-6-frontend/samer_portfolio/.DS_Store
+/team-6-frontend/samer_portfolio/.env.local
+/team-6-frontend/samer_portfolio/.env.development.local
+/team-6-frontend/samer_portfolio/.env.test.local
+/team-6-frontend/samer_portfolio/.env.production.local
+
+/team-6-frontend/samer_portfolio/npm-debug.log*
+/team-6-frontend/samer_portfolio/yarn-debug.log*
+/team-6-frontend/samer_portfolio/yarn-error.log*
+
+
+# Backend ---------------------------
+/team-6-backend/node_modules
+

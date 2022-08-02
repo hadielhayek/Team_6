@@ -1,0 +1,9 @@
+.contact{
+    /* background-color: white; */
+    display: flex;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;    
+    margin-top:20px;
+}

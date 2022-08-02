@@ -1,0 +1,35 @@
+.navlink {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+.navbarSection {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background-color: #2c98f0;
+  height: 50px;
+  align-items: center;
+  margin-top: 0;
+}
+.navbardiv {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0px;
+  z-index: 1000;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width:660px){
+    a{
+        font-size: 0.8rem;
+    }
+    .navbarSection{
+        padding: 0;
+    }
+}

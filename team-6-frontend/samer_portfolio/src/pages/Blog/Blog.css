@@ -1,0 +1,160 @@
+#table, th, td{
+  border: 1px #2c98f0 solid;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+  
+#container1{
+    position: relative;
+    padding:40px;
+    padding-bottom: 50px;
+    padding-top: 90px;
+    width: 90%; 
+    margin: auto;
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+
+#container1  tr td{
+    width: 33%;
+    padding:10px;
+}
+
+#container2{
+padding:10px;
+padding-bottom: 50px;
+padding-top: 50px;
+width: 90%; 
+margin: auto;
+background-color: white;
+margin-bottom: 20px;
+
+}
+.buttonContainer{
+    display: flex;
+justify-content: center;
+}
+
+
+
+#table{
+    width: 100%;
+  
+}
+
+#first{
+    height: 50px;
+    color:white
+
+}
+#second{
+    text-align: center;
+    background-color:#2B97EF;
+}
+#des{
+    background-color: #2B97EF;
+}
+
+#lastbutton{
+    text-align: end;
+    margin-top: 30px;
+}
+
+#fb{
+    display: flex;
+    justify-content:space-between
+
+}
+#sb{
+    display: flex;
+    justify-content:space-between
+}
+#tb{
+    display: flex;
+    justify-content:space-between
+}
+#but1{
+    background-color:rgb(155, 155, 155)
+}
+
+#but2{
+    background-color: red;
+}
+
+#but3{
+    background-color: rgb(29, 216, 29);
+}
+
+#but4{
+    background-color: rgb(29, 216, 29);
+}
+
+#description{
+    width:60%;
+    height: 90px;
+    margin-left: 123px;
+}
+
+#title{
+    width:60%;
+    height: 90px;
+    margin-left: 140px;
+}
+
+
+#image{
+    width:60%;
+    height: 90px;
+    margin-left: 140px;
+}
+
+
+#link{
+    width:60%;
+    height: 90px;
+    margin-left: 140px;
+    
+}
+
+#date{
+    width:60%;
+    height: 90px;
+    margin-left: 140px;
+}
+
+
+
+/* #but212{
+    background-color: red;
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+
+
+#but213{
+    margin-left: 450px;
+    margin-top: 80px;
+} */
+
+#contbut{
+    display: flex;
+    justify-content: center;
+}
+.divbtn{
+    display:flex;
+  
+
+}
+
+@media screen and (max-width:646px) {
+    #contbut{
+        display: grid;
+        justify-content: center;
+        position: relative;
+       
+        }
+
+}
